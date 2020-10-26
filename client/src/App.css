@@ -1,0 +1,22 @@
+.description h3 {
+	color: red;
+	height: 2px;
+}
+.description {
+	color: #0f112e;
+	display: grid;
+	place-items: center;
+	font-size: 12px;
+}
+.description img{
+    min-width:  15vw;
+	max-height: 25vh;
+	padding-top: 5px;
+}
+.locatedMarker{
+	width: 25px;
+	height: 25px;
+}
+.mapboxgl-popup {
+	z-index: 1000 !important;
+}
